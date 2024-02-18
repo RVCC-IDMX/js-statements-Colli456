@@ -13,8 +13,11 @@
  *
  */
 
+const { test } = require('vitest');
+
 function rectanglePerimeter(width, height) {
   // write your code here & return
+  return (width + height) * 2;
 }
 
 /**
@@ -26,6 +29,7 @@ function rectanglePerimeter(width, height) {
  */
 function rectangleArea(width, height) {
   // write your code here & return
+  return width * height;
 }
 
 /**
@@ -40,6 +44,9 @@ function rectangleArea(width, height) {
  */
 function circleCircumference(radius) {
   // write your code here & return
+  const pi = 3.14;
+  console.log(pi.toFixed(2));
+  return 2 * pi * radius;
 }
 
 /**
@@ -50,6 +57,9 @@ function circleCircumference(radius) {
  */
 function circleArea(radius) {
   // write your code here & return
+  const pi = 3.14;
+  console.log(pi.toFixed(2));
+  return pi * (radius ** 2);
 }
 
 /**
@@ -62,6 +72,7 @@ function circleArea(radius) {
  */
 function triangleArea(base, height) {
   // write your code here & return
+  return ((1 / 2) * base * height);
 }
 
 /**
@@ -73,6 +84,7 @@ function triangleArea(base, height) {
  */
 function pythagorean(sideA, sideB) {
   // write your code here & return
+  return ((sideA ** 2) + (sideB ** 2) ** (1 / 2));
 }
 
 module.exports = {
