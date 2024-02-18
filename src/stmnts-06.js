@@ -36,6 +36,11 @@ function isBlank(str) {
  */
 function sayHelloOrBye(name, num) {
   // write your code here & return
+  let str = 'Hello ';
+  if (num !== 0) {
+    str = 'Bye ';
+  }
+  return str + name;
 }
 
 /**
@@ -47,6 +52,7 @@ function sayHelloOrBye(name, num) {
  */
 function compareStrings(str1, str2) {
   // write your code here & return
+  if (str1 === str2) { return true; } return false;
 }
 
 module.exports = {
