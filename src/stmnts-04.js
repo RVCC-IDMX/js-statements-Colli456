@@ -13,8 +13,8 @@
  */
 function fahrenheitToCelsius(fahrenheit) {
   // write your code here & return
-  const results = (fahrenheit - 32) * (5 / 9);
-  results.toFixed(2);
+  let results = (fahrenheit - 32) * (5 / 9);
+  results = +results.toFixed(2);
   return results;
 }
 
@@ -25,7 +25,7 @@ function fahrenheitToCelsius(fahrenheit) {
  */
 function celsiusToFahrenheit(celsius) {
   // write your code here & return
-  return (celsius * (9 / 5) + 32);
+  return +(celsius * (9 / 5) + 32).toFixed(2);
 }
 
 module.exports = {

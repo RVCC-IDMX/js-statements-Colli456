@@ -13,6 +13,7 @@
  */
 function isString(str) {
   // write your code here & return
+  if (typeof str === 'string') { return true; } return false;
 }
 
 /**
@@ -22,6 +23,7 @@ function isString(str) {
  */
 function isBlank(str) {
   // write your code here & return
+  if (str === '') { return true; } return false;
 }
 
 /**

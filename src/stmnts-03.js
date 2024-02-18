@@ -44,9 +44,9 @@ function rectangleArea(width, height) {
  */
 function circleCircumference(radius) {
   // write your code here & return
-  const pi = 3.14;
-  console.log(pi.toFixed(2));
-  return 2 * pi * radius;
+  const pi = Math.PI;
+  // console.log(pi.toFixed(2));
+  return +(2 * pi * radius).toFixed(2);
 }
 
 /**
